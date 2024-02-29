@@ -1,0 +1,163 @@
+.btn-sanima {
+  color: #fff;
+  background: linear-gradient(90deg, #005b30 18%, #007cc4 100%);
+  box-shadow: none;
+}
+
+.btn-sanima:hover {
+  color: #fff;
+  background: linear-gradient(-90deg, #005b30 18%, #007cc4 100%);
+}
+
+.c-sidebar-sanima {
+  color: #fff;
+  background: rgba(4, 109, 64, 1);
+}
+
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2000;
+  background-color: #f8f8f8ad;
+}
+.loader {
+  left: 50%;
+  top: 40%;
+  position: absolute;
+}
+.loader > img {
+  width: 65%;
+}
+
+.c-sidebar .c-sidebar-nav-link:hover,
+.c-sidebar .c-sidebar-nav-dropdown-toggle:hover {
+  color: #fff;
+  background: rgba(0, 124, 196, 1);
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background: rgba(0, 124, 196, 1) !important;
+}
+
+.srv-validation-message {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #e55353;
+}
+
+.logo-login {
+  width: 100%;
+}
+
+.profile-image {
+  width: 150px;
+  margin: auto;
+  border: 0.5px solid #00000063;
+}
+
+.c-avatar {
+  border: 0.5px solid #00000063 !important;
+}
+
+.logo-404 {
+  width: 30%;
+}
+
+.c-main > .container-fluid,
+.c-main > .container-sm,
+.c-main > .container-md,
+.c-main > .container-lg,
+.c-main > .container-xl,
+.c-main > .container-xxl {
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+}
+
+.c-main {
+  padding-top: 1rem !important;
+}
+
+/* override alertify js css*/
+.alertify .ajs-footer {
+  padding: 5px !important;
+}
+.alertify .ajs-footer .ajs-buttons .ajs-button {
+  min-height: 26px !important;
+}
+.alertify .ajs-header {
+  color: #fff !important;
+  background: linear-gradient(90deg, #005b30 18%, #007cc4 100%) !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  padding: 10px 23px !important;
+}
+.alertify .ajs-dialog {
+  border-radius: 0 !important;
+}
+.alertify.ajs-closable .ajs-commands button.ajs-close {
+  background-color: #ffffff !important;
+}
+.alertify .ajs-body .ajs-content {
+  padding: 16px 24px 16px 0 !important;
+}
+.alertify .ajs-commands {
+  margin: -20px 5px 0 0 !important;
+}
+
+.error-ul {
+  margin-bottom: 0px !important;
+  padding-left: 16px !important;
+}
+
+.form-error {
+  margin: 10px 10px 0 10px;
+}
+
+.ck-editor__editable_inline {
+  min-height: 150px !important;
+}
+
+// for the react datatable
+.sc-fodVek.rdt_TableHeader {
+  font-size: 17px !important;
+  min-height: 42px !important;
+  background: #ebedef !important;
+  // color: #fff;
+}
+.col-sm-3,
+.col-sm,
+.col-sm-9,
+.col-md-8 {
+  padding: 0;
+}
+.c-sidebar-nav-dropdown-toggle::after {
+  content: "\f105"; /* Unicode character for a down-arrow icon (FontAwesome) */
+  background-image: none; /* Use the FontAwesome icon font */
+  font-family: FontAwesome; /* Optional: Add spacing between text and icon */
+}
+.c-sidebar :hover.c-sidebar-nav-dropdown-toggle::after {
+  background-image: none;
+}
+.c-sidebar .c-sidebar-nav-dropdown-toggle::after {
+  background-image: none;
+}
+html:not([dir="rtl"])
+  .c-sidebar-nav-dropdown.c-show
+  > .c-sidebar-nav-dropdown-toggle::after {
+  -webkit-transform: none;
+  transform: none;
+  content: "\f107";
+}
+.c-sidebar-nav-dropdown-items {
+  overflow-y: none;
+}
+.image {
+  width: 100px;
+  height: auto;
+}
+
